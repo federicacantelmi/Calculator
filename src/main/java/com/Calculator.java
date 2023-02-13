@@ -68,6 +68,8 @@ public class Calculator {
                 calculatedNumber = firstNumberInt / secondNumberInt;
                 textField.setText(String.valueOf(calculatedNumber));
             }
+            default -> {//ignore
+                }
         }
         currentNumber = String.valueOf(calculatedNumber);
     }
